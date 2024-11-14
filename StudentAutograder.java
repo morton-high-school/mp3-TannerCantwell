@@ -96,7 +96,7 @@ public class StudentAutograder{
     two.setReason("Because of the triangles.");
     Boolean c = one.getFavoriteTeacher().getName().equals("Socrates");
     Boolean d = one.getFavoriteTeacher().getReason().equals("He was pretty cool.");
-
+    
     if(!a){
       System.out.println("Failed Get Name of Favorite Teacher Test");
     }
